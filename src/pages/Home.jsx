@@ -3,6 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <>
+
+
+
        <header>
       
 <nav class="fixed top-0 border-solid border-gray-200 w-full border-b py-3 bg-white z-50  bg-inherit">
@@ -90,20 +93,25 @@ const Home = () => {
 
       </header>
 
-      <div class="grid grid-cols-2 gap-6">
-<div>
-<img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688025668.png" alt="Gallery image" />
-</div>
-<div>
-<img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029344.png" alt="Gallery image" />
-</div>
-<div>
-<img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029370.png" alt="Gallery image" />
-</div>
-<div>
-<img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029384.png" alt="Gallery image" />
-</div>
-</div>
+
+   <a href="/product" class="group block overflow-hidden">
+  <div class="relative h-87.5 sm:h-112.5 w-full">
+    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" alt="" class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"/>
+
+    <img src="https://images.unsplash.com/photo-1523381140794-a1eef18a37c7?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" alt="" class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"/>
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-lg font-medium text-center text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Limited Edition Tee
+    </h3>
+  </div>
+  </a>
+
+
+
+
+
 
 
 
