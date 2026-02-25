@@ -71,15 +71,15 @@
       <div class="hidden w-full lg:flex lg:pl-11 " id="navbar-nav-example">
           <ul class="flex items-center flex-col mt-4 lg:mt-0 lg:ml-auto lg:flex-row gap-4">
               <li>
-                  <a href="/#"
+                  <a href="#/"
                       class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3">Home</a>
               </li>
               <li>
-                  <a href="/contact"
+                  <a href="#/contact"
                       class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3">Contact</a>
               </li>
               <li>
-                  <a href="/product"
+                  <a href="#/product"
                       class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3">Product</a>
               </li>
           </ul>
